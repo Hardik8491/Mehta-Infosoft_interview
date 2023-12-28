@@ -1,0 +1,73 @@
+.personDetails-container {
+    border: 1px solid black;
+    position: relative;
+    width: 75%;
+}
+.personDetails-container h2 {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+button {
+    background-color: rgba(20, 55, 227, 1);
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 400ms linear;
+}
+button:hover {
+    background-color: transparent;
+    border: 1px solid rgba(20, 55, 227, 1);
+    color: blue;
+}
+button:active {
+    scale: 0.8;
+}
+.info {
+    padding: 1rem;
+}
+.data {
+    display: flex;
+    margin-top: 1rem;
+}
+.data > label {
+    width: 10rem;
+}
+input {
+    padding: 0.5rem;
+}
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.modal {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+}
+.secondary {
+    background-color: transparent;
+    border: 1px solid rgba(20, 55, 227, 1);
+    color: rgba(20, 55, 227, 1);
+}
+.danger {
+    background-color: red;
+}
+.danger:hover {
+    color: red;
+    border: 1px solid red;
+}
